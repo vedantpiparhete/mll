@@ -253,6 +253,7 @@ section {
 
 /* MENU */
 
+
 .menu {
     background: url(../image/menu-bg.jpg) no-repeat;
     background-position: center;
@@ -260,6 +261,7 @@ section {
 }
 
 .menu .box-container {
+    display: flex;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -272,6 +274,7 @@ section {
     border: var(--border);
     border-radius: var(--border-radius);
     display: flex;
+    display: flex;
     align-items: center;
     gap: 1.5rem;
     margin-left: 6rem;
@@ -280,17 +283,24 @@ section {
 .menu .box-container .box:hover {
     border: var(--border-hover);
     border-radius: var(--border-radius-hover);
+     display: flex;
+    display: flex;
 }
 
 .menu .box-container .box img {
     height: 8rem;
     margin-left: -6rem;
+    display: flex;
+    display: flex;
 }
 
 .menu .box-container .box .content h3 {
     font-size: 2.2rem;
     color: var(--main-color);
     line-height: 1.8;
+    display: flex;
+    display: flex;
+    
 }
 
 .menu .box-container .box .content p {
@@ -298,12 +308,16 @@ section {
     color: var(--main-color);
     line-height: 1.8;
     padding: 1rem 0;
+    display: flex;
+    display: flex;
 }
 
 .menu .box-container .box .content span {
     font-size: 2rem;
     color: var(--main-color);
     line-height: 1.8;
+    display: flex;
+    display: flex;
 }
 
 /* REVIEW */
