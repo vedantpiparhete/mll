@@ -312,6 +312,11 @@ section {
     padding: 7rem 0;
 }
 
+.reviewButton{
+    font-size: 22px;
+    padding: 15px 30px;
+}
+
 .review .review-slider .box {
     border: var(--border);
     border-radius: var(--border-radius);

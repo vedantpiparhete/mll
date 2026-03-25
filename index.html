@@ -170,6 +170,17 @@ Patni: "Arre, ghabrao mat ji... bas ek chuski lekar toh dekho, shayad marna canc
     <section class="review" id="review">
         <h1 class="heading">reviews <span>what people says</span></h1>
 
+        <h1>Leave a Review</h1>
+<textarea id="reviewText" placeholder="Write your review"></textarea><br><br>
+<button onclick="submitReview()">Submit Review</button>
+
+<script>
+function submitReview() {
+  let review = document.getElementById("reviewText").value;
+  alert("Your review: " + review);
+}
+</script>
+
         <div class="swiper review-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide box">
